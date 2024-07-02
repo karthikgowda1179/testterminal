@@ -1,2 +1,18 @@
 testing throught the terminal
 
+1) git init (initialze git into the working folder)
+
+PS C:\Users\admin\Desktop\newprojecct> git init
+Initialized empty Git repository in C:/Users/admin/Desktop/newprojecct/.git/
+
+2) git add .(adds a change in the working directory to the staging area all files are added. It tells Git that you want to include updates to a particular file in the next commit.)
+
+3) git add filename.txt(add only the specific file)
+
+4) git remote add origin https://github.com/karthikgowda1179/testterminal.git (connects to the repository)
+
+5)git branch -M branchName (commits and choose the branch, no changes made to repository)
+
+
+
+git checkout name (used to checkout file or branch)
