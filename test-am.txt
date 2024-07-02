@@ -1,1 +1,12 @@
 testing
+
+PS C:\Users\admin\Desktop\newprojecct> git add test.txt
+PS C:\Users\admin\Desktop\newprojecct> git commit -m "testing for git commit -a" 
+[main (root-commit) 33b96cd] testing for git commit -a
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test.txt
+PS C:\Users\admin\Desktop\newprojecct> git add test-am.txt
+PS C:\Users\admin\Desktop\newprojecct> git commit -am "testing for git commit -am"
+[main b1149e1] testing for git commit -am
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test-am.txt
