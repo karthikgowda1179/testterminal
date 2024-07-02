@@ -1,18 +1,28 @@
 testing throught the terminal
 
+git -h (help)
+
 1) git init (initialze git into the working folder)
 
 PS C:\Users\admin\Desktop\newprojecct> git init
 Initialized empty Git repository in C:/Users/admin/Desktop/newprojecct/.git/
 
-2) git add .(adds a change in the working directory to the staging area all files are added. It tells Git that you want to include updates to a particular file in the next commit.)
+2) git add .
+(adds a change in the working directory to the staging area, all files are added. It tells Git that you want to include updates to a particular file in the next commit.)
 
-3) git add filename.txt(add only the specific file)
+3) git add filename.txt
+(add only the specific file)
 
-4) git remote add origin https://github.com/karthikgowda1179/testterminal.git (connects to the repository)
+4) git remote add origin https://github.com/karthikgowda1179/testterminal.git 
+(connects to the repository)
 
-5)git branch -M branchName (commits and choose the branch, no changes made to repository)
+5)git branch -M branchName 
+(choose the branch and creates branch if doesnt exit, no changes made to repository)
 
+6) git push -u origin branchname 
+(pushed directly the repository skipping the commit stage and commit comments)
 
+7) git commit -am "commit description"
+(commits the changes before pushing it into the respositry, no changes into the repository)
 
 git checkout name (used to checkout file or branch)
