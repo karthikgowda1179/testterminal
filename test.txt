@@ -19,10 +19,10 @@ Initialized empty Git repository in C:/Users/admin/Desktop/newprojecct/.git/
 5)git branch -M branchName 
 (choose the branch and creates branch if doesnt exit, no changes made to repository)
 
-6) git push -u origin branchname 
-(pushed directly the repository skipping the commit stage and commit comments)
-
-7) git commit -am "commit description"
+6) git commit -am "commit description"
 (commits the changes before pushing it into the respositry, no changes into the repository)
+
+7) git push -u origin branchname 
+(pushed directly the repository skipping the commit stage and commit comments)
 
 git checkout name (used to checkout file or branch)
